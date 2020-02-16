@@ -4,7 +4,10 @@ import pprint
 
 import pymysql.cursors
 
-# 通过 JSON 读取配置文件
+"""
+    通过 JSON 读取配置文件，需要在顶级目录的 conf/mysql_config.json 进行配置
+    方法参考：https://blog.csdn.net/matrix_google/article/details/76671797
+"""
 with open('../../conf/mysql_config.json', 'rb') as confFile:
     confStr = confFile.read()
 conf = json.JSONDecoder().decode(confStr)
