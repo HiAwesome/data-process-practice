@@ -11,6 +11,7 @@
     参考这里 https://pypi.org/project/pdfminer/
 
     根据书中特定版本的指示运行成功 => pip install slate==0.3 pdfminer==20110515
+    参考这里 https://github.com/timClicks/slate/issues/5#issuecomment-53450633
 """
 import slate
 
