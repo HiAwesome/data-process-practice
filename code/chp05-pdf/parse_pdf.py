@@ -10,7 +10,7 @@
     python2 提供的版本为 pdfminer.six => pip install pdfminer.six
     参考这里 https://pypi.org/project/pdfminer/
 
-    还是不能运行成功，暂时放弃，只是 python2 解析 pdf 有了问题，不影响主干
+    根据书中特定版本的指示运行成功 => pip install slate==0.3 pdfminer==20110515
 """
 import slate
 
